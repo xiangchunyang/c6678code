@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+
+<configuration XML_version="1.2" id="Spectrum Digital XDS560V2 STM USB Emulator_0">
+        <instance XML_version="1.2" desc="Spectrum Digital XDS560V2 STM USB Emulator_0" href="connections/SD560V2USB_Connection.xml" id="Spectrum Digital XDS560V2 STM USB Emulator_0" xml="SD560V2USB_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Spectrum Digital XDS560V2 STM USB Emulator_0">
+            <instance XML_version="1.2" href="drivers/tixds560icepick_d.xml" id="drivers" xml="tixds560icepick_d.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560c66xx.xml" id="drivers" xml="tixds560c66xx.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560cs_dap.xml" id="drivers" xml="tixds560cs_dap.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560csstm.xml" id="drivers" xml="tixds560csstm.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560etbcs.xml" id="drivers" xml="tixds560etbcs.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="TMS320C6678_0" href="devices/C6678.xml" id="TMS320C6678_0" xml="C6678.xml" xmlpath="devices"/>
+                <instance XML_version="1.2" desc="TMS320C6678_1" href="devices/C6678.xml" id="TMS320C6678_1" xml="C6678.xml" xmlpath="devices"/>
+                <device HW_revision="1" XML_version="1.2" description="C66x core" id="TMS320C6678_1" partnum="TMS320C6678">
+                    <router HW_revision="1.0" XML_version="1.2" desc="IcePick_E" description="ICEPick_D Router" id="IcePick_D_0" isa="ICEPICK_D">
+                        <subpath desc="subpath_8" id="subpath_0">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_8" description="C66xx CGEM+FP CPU" id="C66xx_0" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_9" id="subpath_1">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_9" description="C66xx CGEM+FP CPU" id="C66xx_1" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_10" id="subpath_2">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_10" description="C66xx CGEM+FP CPU" id="C66xx_2" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_11" id="subpath_3">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_11" description="C66xx CGEM+FP CPU" id="C66xx_3" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_12" id="subpath_4">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_12" description="C66xx CGEM+FP CPU" id="C66xx_4" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_13" id="subpath_5">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_13" description="C66xx CGEM+FP CPU" id="C66xx_5" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_14" id="subpath_6">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_14" description="C66xx CGEM+FP CPU" id="C66xx_6" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_15" id="subpath_7">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_15" description="C66xx CGEM+FP CPU" id="C66xx_7" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="DAP_0" id="DAP">
+                            <router HW_revision="1.0" XML_version="1.2" desc="CS_DAP_DebugSS_0" description="CS DAP Router" id="CS_DAP_DebugSS" isa="CS_DAP">
+                                <subpath desc="STM_0" id="STM">
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="CSSTM_1" description="CS System Trace" id="CSSTM_0" isa="TMS470R26X"/>
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="TETB_STM_0" description="CS Embedded Trace Buffer" id="TETB_STM" isa="CS_ETB"/>
+                                </subpath>
+                            </router>
+                        </subpath>
+                    </router>
+                </device>
+                <instance XML_version="1.2" desc="TMS320C6678_2" href="devices/C6678.xml" id="TMS320C6678_2" xml="C6678.xml" xmlpath="devices"/>
+                <device HW_revision="1" XML_version="1.2" description="C66x core" id="TMS320C6678_2" partnum="TMS320C6678">
+                    <router HW_revision="1.0" XML_version="1.2" desc="IcePick_F" description="ICEPick_D Router" id="IcePick_D_0" isa="ICEPICK_D">
+                        <subpath desc="subpath_16" id="subpath_0">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_16" description="C66xx CGEM+FP CPU" id="C66xx_0" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_17" id="subpath_1">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_17" description="C66xx CGEM+FP CPU" id="C66xx_1" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_18" id="subpath_2">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_18" description="C66xx CGEM+FP CPU" id="C66xx_2" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_19" id="subpath_3">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_19" description="C66xx CGEM+FP CPU" id="C66xx_3" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_20" id="subpath_4">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_20" description="C66xx CGEM+FP CPU" id="C66xx_4" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_21" id="subpath_5">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_21" description="C66xx CGEM+FP CPU" id="C66xx_5" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_22" id="subpath_6">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_22" description="C66xx CGEM+FP CPU" id="C66xx_6" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_23" id="subpath_7">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_23" description="C66xx CGEM+FP CPU" id="C66xx_7" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="DAP_1" id="DAP">
+                            <router HW_revision="1.0" XML_version="1.2" desc="CS_DAP_DebugSS_1" description="CS DAP Router" id="CS_DAP_DebugSS" isa="CS_DAP">
+                                <subpath desc="STM_1" id="STM">
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="CSSTM_2" description="CS System Trace" id="CSSTM_0" isa="TMS470R26X"/>
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="TETB_STM_1" description="CS Embedded Trace Buffer" id="TETB_STM" isa="CS_ETB"/>
+                                </subpath>
+                            </router>
+                        </subpath>
+                    </router>
+                </device>
+                <instance XML_version="1.2" desc="TMS320C6678_3" href="devices/C6678.xml" id="TMS320C6678_3" xml="C6678.xml" xmlpath="devices"/>
+                <device HW_revision="1" XML_version="1.2" description="C66x core" id="TMS320C6678_3" partnum="TMS320C6678">
+                    <router HW_revision="1.0" XML_version="1.2" desc="IcePick_G" description="ICEPick_D Router" id="IcePick_D_0" isa="ICEPICK_D">
+                        <subpath desc="subpath_24" id="subpath_0">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_24" description="C66xx CGEM+FP CPU" id="C66xx_0" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_25" id="subpath_1">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_25" description="C66xx CGEM+FP CPU" id="C66xx_1" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_26" id="subpath_2">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_26" description="C66xx CGEM+FP CPU" id="C66xx_2" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_27" id="subpath_3">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_27" description="C66xx CGEM+FP CPU" id="C66xx_3" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_28" id="subpath_4">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_28" description="C66xx CGEM+FP CPU" id="C66xx_4" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_29" id="subpath_5">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_29" description="C66xx CGEM+FP CPU" id="C66xx_5" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_30" id="subpath_6">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_30" description="C66xx CGEM+FP CPU" id="C66xx_6" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="subpath_31" id="subpath_7">
+                            <cpu HW_revision="1.0" XML_version="1.2" desc="C66xx_31" description="C66xx CGEM+FP CPU" id="C66xx_7" isa="TMS320C66XX"/>
+                        </subpath>
+                        <subpath desc="DAP_2" id="DAP">
+                            <router HW_revision="1.0" XML_version="1.2" desc="CS_DAP_DebugSS_2" description="CS DAP Router" id="CS_DAP_DebugSS" isa="CS_DAP">
+                                <subpath desc="STM_2" id="STM">
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="CSSTM_3" description="CS System Trace" id="CSSTM_0" isa="TMS470R26X"/>
+                                    <cpu HW_revision="1.0" XML_version="1.2" desc="TETB_STM_2" description="CS Embedded Trace Buffer" id="TETB_STM" isa="CS_ETB"/>
+                                </subpath>
+                            </router>
+                        </subpath>
+                    </router>
+                </device>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
